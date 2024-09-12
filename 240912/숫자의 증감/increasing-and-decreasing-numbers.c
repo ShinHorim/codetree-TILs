@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    // 여기에 코드를 작성해주세요.
-    char a;
-    int b;
-    scanf("%c %d", &a, &b);
+    // 변수 선언
+    char c;
+	int n;
 
-    if (a =='A'){
-        for(int i = 1; i<=b; i++){
-            printf("%d ",i);
-        }
-    }
-    else if (a=='D'){
-        for(int j = b; 1<=b; j--){
-            printf("%d ",j);
-        }
+	// 입력
+	scanf("%c %d", &c, &n);
     
-    }
-    
+    // 출력
+	if(c == 'A') {
+		for(int i = 1; i <= n; i++)
+			printf("%d ", i);
+	}
+	else {
+		for(int i = n; i >= 1; i--)
+			printf("%d ", i);
+	}
+	
     return 0;
 }
