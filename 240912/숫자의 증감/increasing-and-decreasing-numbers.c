@@ -11,9 +11,9 @@ int main() {
             printf("%d ",i);
         }
     }
-    else {
-        for(int i = b; 1<=b; i--){
-            printf("%d ",i);
+    else if(a=='D'){
+        for(int j = b; 1<=b; j--){
+            printf("%d ",j);
         }
         
     }
