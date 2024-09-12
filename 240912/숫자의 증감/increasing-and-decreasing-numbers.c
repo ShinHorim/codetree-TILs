@@ -15,7 +15,7 @@ int main() {
         for(int j = b; 1<=b; j--){
             printf("%d ",j);
         }
-        
+    
     }
     
     return 0;
