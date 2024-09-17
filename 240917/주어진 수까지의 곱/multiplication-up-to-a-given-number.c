@@ -5,7 +5,7 @@ int main() {
     int a,b,gop = 1;
     scanf("%d %d",&a,&b);
 
-    for (int i = a; a<=b; i++){
+    for (int i = a; i<=b; i++){
         gop *=i;
     }
     printf("%d",gop);
