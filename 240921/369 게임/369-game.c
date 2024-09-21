@@ -10,10 +10,10 @@ int main() {
     ship = a/10;
     for (int i = 1; i<= a; i++){
         
-        if (i%3!=0){
-            printf("%d ", i);
+        if (i%3==0){
+            printf("0 ");
         }
-        else if (i%3==0 ||i/10==3|| i/10==6|| i/10==9){
+        else if (i/10==3|| i/10==6|| i/10==9){
             printf("0 ");
         }
         else if (i%10 == 3|| i%10==6|| i%10==9){
