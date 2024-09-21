@@ -6,17 +6,17 @@ int main() {
     scanf("%d", &a);
     
     for(int i = a; i<=100; i++){
-        if (a>=90){
+        if (i>=90){
         printf("A");
         }
-        else if (a>=80){
+        else if (i>=80){
             printf("B");
         }
-        else if (a>=70){
+        else if (i>=70){
             printf("C");
         }
 
-        else if (a>=60){
+        else if (i>=60){
             printf("D");
         }
         else{
