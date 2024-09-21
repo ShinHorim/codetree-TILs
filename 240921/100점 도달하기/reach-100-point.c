@@ -7,20 +7,20 @@ int main() {
     
     for(int i = a; i<=100; i++){
         if (i>=90){
-        printf("A");
+        printf("A ");
         }
         else if (i>=80){
-            printf("B");
+            printf("B ");
         }
         else if (i>=70){
-            printf("C");
+            printf("C ");
         }
 
         else if (i>=60){
-            printf("D");
+            printf("D ");
         }
         else{
-            printf("F");
+            printf("F ");
         }
     }
    
