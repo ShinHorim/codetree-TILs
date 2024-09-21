@@ -6,14 +6,14 @@ int main() {
     int il=0;
     int ship = 0;
     scanf("%d",&a);
-    il = a%10;
+    
     ship = a/10;
     for (int i = 1; i<= a; i++){
         
         if (i%3!=0){
-            printf("%d", i);
+            printf("%d ", i);
         }
-        else if (i%3==0 ||ship==3|| ship==6|| ship==9){
+        else if (i%3==0 ||i/10==3|| i/10==6|| i/10==9){
             printf("0 ");
         }
         else{
