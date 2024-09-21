@@ -9,7 +9,7 @@ int main() {
     il = a%10;
     ship = a/10;
     for (int i = 1; i<= a; i++){
-        if (i%3==0 || il == 3 || il==6|| il==9||ship == 3|| ship==6|| ship==9){
+        if (i%3==0){
             printf("0 ");
         }
         else{
