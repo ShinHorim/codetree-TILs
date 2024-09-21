@@ -5,7 +5,8 @@ int main() {
     int a,b;
     int max,mini,be=0;
     scanf("%d %d",&a, &b);
-    max = a>b ? a:mini;
+    max = a>b ? a:b;
+    mini = a<b ? a:b;
     for(int i = mini; i<= max; i++){
         if (i%5==0){
             be += i;
