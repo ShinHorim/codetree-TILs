@@ -6,14 +6,16 @@ int main() {
     scanf("%d %d",&a,&b);
 
     for (int i = a; i<=b; i++){
-    
-        if (i%2 != 0 || i = a){
-            i *= 2;
+        
+        if (i%2 != 0){
+            
             printf("%d ", i);
+             i *= 2;
         }
         else{
-            i += 3;
+        
             printf("%d ", i);
+            i += 3;
         }
     }
     return 0;
