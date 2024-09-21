@@ -6,7 +6,7 @@ int main() {
     int hol = 0;
     for (int i = 1; i<=10; i++){
         scanf("%d",&a);
-        if (i%2 != 0){
+        if (a%2 != 0){
             hol += 1;
         }
     }
