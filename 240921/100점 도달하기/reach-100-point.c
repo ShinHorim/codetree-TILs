@@ -4,22 +4,25 @@ int main() {
     // 여기에 코드를 작성해주세요.
     int a;
     scanf("%d", &a);
-
-    if (a>=90){
+    
+    for(int i = a; i<=100; i++){
+        if (a>=90){
         printf("A");
-    }
-    else if (a>=80){
-        printf("B");
-    }
-    else if (a>=70){
-        printf("C");
-    }
+        }
+        else if (a>=80){
+            printf("B");
+        }
+        else if (a>=70){
+            printf("C");
+        }
 
-    else if (a>=60){
-        printf("D");
+        else if (a>=60){
+            printf("D");
+        }
+        else{
+            printf("F");
+        }
     }
-    else{
-        printf("F");
-    }
+   
     return 0;
 }
