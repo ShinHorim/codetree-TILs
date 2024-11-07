@@ -8,7 +8,7 @@ int main() {
     int i = 0;
     while(i<2){
         
-        if (a%5==0){
+        if (c%5==0){
             i++;
         }
         printf("%d ", c);
