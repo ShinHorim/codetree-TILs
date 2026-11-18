@@ -1,0 +1,15 @@
+// src/main/java/com/umc/movie/repository/MemberRepository.java
+package com.umc.movie.repository;
+
+import com.umc.movie.entity.Member;
+import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.Optional;
+
+
+public interface MemberRepository extends JpaRepository<Member, Long> {//Member 위치는 어떤 테이블의 데이터를 다룰지, Long 위치는 그 테이블의 기본키 자료형이 무엇인지 알려줌
+    boolean existsByNickname(String nickname);
+    boolean existsByEmail(String email);
+    Optional<Member> findByEmail(String email);
+    // "이 닉네임을 쓰는 회원이 있는가? 단, 나 자신은 빼고" 를 한 번에 확인합니다
+    boolean existsByNicknameAndMemberIdNot(String nickname, Long memberId);
+}
